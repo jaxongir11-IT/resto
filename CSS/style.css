@@ -284,6 +284,7 @@ body {
 /* Special Dishes section */
 .special-dishes {
     padding-top: 100px;
+    position: relative;
 }
 
 .special {
@@ -373,7 +374,7 @@ body {
     height: 470px;
     width: 390px;
     float: left;
-    margin: 50px 0 0 200px;
+    margin: 50px 0 10px 190px;
 }
 
 .special-02 {
@@ -388,7 +389,7 @@ body {
 .special-line-2 {
     float: left;
     width: 185px;
-    height: 4px;
+    height: 2px;
     background-color: #acacac;
     margin: 145px 0 0 18px;
 }
@@ -445,5 +446,9 @@ body {
     height: 470px;
     width: 390px;
     float: left;
+    position: absolute;
+    top: 750px;
+    left: 0;
 }
 /* Special Dishes section */
+
