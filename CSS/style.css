@@ -301,21 +301,149 @@ body {
     margin-left: 395px;
 }
 
+.special-item__1 {
+    margin-top: 95px;
+    float: left;
+}
+
 .special-01 {
-    display: block;
-    margin-top: 100px;
+    float: left;
     font-size: 56px;
     font-weight: bold;
     font-family: "Bree Serif", serif;
     font-style: normal;
 }
 
+.special-line-1 {
+    float: left;
+    width: 185px;
+    height: 4px;
+    background-color: #acacac;
+    margin: 45px 0 0 18px;
+}
+
+.special-margin-1 {
+    margin-left: 90px;
+}
+
 .special-beef {
     display: inline-block;
     color: red;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.special-steak {
+    display: block;
+    font-family: cursive;
+    font-size: 26px;
+}
+
+.special-p-1 {
+    width: 300px;
+    color: #acacac;
+    line-height: 20px;
+}
+
+.special-p-2 {
     font-size: 24px;
-    margin-left: 89px;
-    border-top: 4px solid #acacac;
-    padding-top: 40px;
+    font-weight: 600;
+}
+
+.special-p-3 {
+    background-color: red;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.special-p-3:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.special__img-1 {
+    background-image: url(../Img/steak.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 470px;
+    width: 390px;
+    float: left;
+    margin: 50px 0 0 200px;
+}
+
+.special-02 {
+    font-size: 56px;
+    font-weight: bold;
+    font-family: "Bree Serif", serif;
+    font-style: normal;
+    float: left;
+    margin: 100px 0 0 590px;
+}
+
+.special-line-2 {
+    float: left;
+    width: 185px;
+    height: 4px;
+    background-color: #acacac;
+    margin: 145px 0 0 18px;
+}
+
+.special-margin-2 {
+    float: right;
+    margin-right: 620px;
+}
+
+.special-salmon {
+    display: inline-block;
+    color: red;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.special-zucchini {
+    display: block;
+    font-family: cursive;
+    font-size: 26px;
+}
+
+.special-a-1 {
+    width: 300px;
+    color: #acacac;
+    line-height: 20px;
+}
+
+.special-a-2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.special-a-3 {
+    background-color: red;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.special-a-3:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.special__img-2 {
+    background-image: url(../Img/salmon-zucchini.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 470px;
+    width: 390px;
+    float: left;
 }
 /* Special Dishes section */
