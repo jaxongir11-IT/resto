@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    margin-left: 0;
 }
 
 .container {
@@ -195,6 +196,8 @@ body {
     float: left;
     margin-top: 65px;
     margin-left: 100px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 
+              0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
 .main-section__img-1 {
@@ -233,6 +236,8 @@ body {
     float: left;
     margin-right: 100px;
     margin-left: 10px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 
+              0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
 .about-items {
@@ -375,6 +380,8 @@ body {
     width: 390px;
     float: left;
     margin: 50px 0 10px 190px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 
+              0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
 .special-02 {
@@ -449,6 +456,383 @@ body {
     position: absolute;
     top: 750px;
     left: 0;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 
+              0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 /* Special Dishes section */
 
+/* Our Menu section */
+.our-menu {
+    position: relative;
+}
+
+.our-menu__nav {
+    margin-top: 650px;
+    margin-bottom: 50px;
+}
+
+.our-menu__nav-1 {
+    display: block;
+    color: red;
+    font-size: 14px;
+    margin-left: 455px;
+}
+
+.our-menu__nav-2 {
+    display: block;
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 425px;
+}
+
+.menu-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-right: 625px;
+}
+
+.menu-column {
+    width: 300px;
+}
+
+.menu-column h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee; /* Ostidagi ingichka chiziqcha */
+}
+
+.menu-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Rasmni dumaloq qilish */
+    object-fit: cover;
+}
+
+.item-details {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.item-details h4 {
+    font-size: 15px;
+    margin: 0 0 4px 0;
+    color: #333;
+}
+
+.item-details p {
+    font-size: 12px;
+    margin: 0;
+    color: #777;
+}
+
+.price {
+    font-weight: 600;
+    color: #555;
+    font-size: 15px;
+}
+/* /Our Menu section */
+
+/* Happy Customer section */
+.happy-customer {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.happy-img {
+    background-image: url(../Img/testi-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 500px;
+    height: 450px;
+    width: 100%;
+    padding-top: 100px;
+    filter: brightness(0.9);
+}
+
+.happy-customer__h1 {
+    position: absolute;
+    display: inline-block;
+    font-size: 150px;
+    font-weight: 600;
+    left: 710px;
+}
+
+.happy-p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    padding-top: 120px;
+    color: #dcdcdc;
+}
+
+.happy-customer__p {
+    color: red;
+    padding-top: 30px;
+}
+
+.happy-ctd {
+    color: #fff;
+}
+
+.happy-span {
+    color: red;
+}
+/* Happy Customer section */
+
+/* Our Team section */
+.our-team__nav {
+    padding-top: 600px;
+}
+
+.our-team__nav-1 {
+    display: block;
+    color: red;
+    font-size: 14px;
+    margin-left: 455px;
+}
+
+.our-team__nav-2 {
+    display: block;
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 425px;
+}
+
+.our-team-bg-1 {
+    background-image: url(../Img/chef-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 290px;
+    height: 450px;
+    margin-left: 28px;
+    margin-top: 40px;
+    float: left;
+    margin-right: 25px;
+}
+
+.bg-1 {
+    background-color: #fff;
+    display: inline-block;
+    width: 260px;
+    margin-top: 375px;
+    margin-left: 15px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.aaron-patel {
+    display: block;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.chef-1 {
+    color: #acacac;
+    text-transform: uppercase;
+}
+
+.our-team-bg-2 {
+    background-image: url(../Img/chef-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 290px;
+    height: 450px;
+    margin-top: 40px;
+    float: left;
+    margin-right: 25px;
+}
+
+.bg-2 {
+    background-color: #fff;
+    display: inline-block;
+    width: 260px;
+    margin-top: 375px;
+    margin-left: 15px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.daniel-tebas {
+    display: block;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.chef-2 {
+    color: #acacac;
+    text-transform: uppercase;
+}
+
+.our-team-bg-3 {
+    background-image: url(../Img/chef-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 290px;
+    height: 450px;
+    margin-top: 40px;
+    float: left;
+    margin-right: 25px;
+}
+
+.bg-3 {
+    background-color: #fff;
+    display: inline-block;
+    width: 260px;
+    margin-top: 375px;
+    margin-left: 15px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.jon-snow {
+    display: block;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.chef-3 {
+    color: #acacac;
+    text-transform: uppercase;
+}
+/* /Our Team section */
+
+/* Book Now section */
+.book-now {
+    position: relative;
+    top: 460px;
+}
+
+.book-now__bg {
+    background-image: url(../Img/reservation-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 800px;
+    width: 1510px;
+    margin-left: 0;
+    filter: blur(1px) brightness(0.8);
+}
+
+.book-now__items {
+    background-color: white;
+    height: 500px;
+    width: 380px;
+    position: absolute;
+    top: 260px;
+    left: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.book-now__nav-1 {
+    display: block;
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.book-now__nav-2 {
+    display: block;
+    font-size: 26px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.book-now__form {
+    margin-left: 40px;
+}
+
+.input {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #dcdcdc;
+}
+
+input, textarea::placeholder {
+    font-size: 16px;
+}
+
+.input-1 {
+    width: 130px;
+    margin-right: 11px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #dcdcdc;
+}
+
+.input-2 {
+    width: 130px;
+    margin-left: 11px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #dcdcdc;
+}
+
+.select {
+    width: 313px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #dcdcdc;
+}
+
+.book-now__btn {
+    background-color: red;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 18px;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-left: 94px;
+    font-size: 12px;
+}
+
+.book-now__btn:hover {
+    background-color: black;
+}
+/* /Book Now section */
+
+/* Footer section */
+.footer {
+    margin-top: 600px;
+}
+
+.footer-item__1 img {
+    width: 100px;
+}
+
+.footer-item__1 p {
+    width: 300px;
+}
+/* /Footer section */
